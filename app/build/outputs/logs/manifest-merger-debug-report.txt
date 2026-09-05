@@ -1,0 +1,278 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/61f1564ea64e4793743794a631eff82d/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/005c8c6762ed4a3f1d65b03ecf5f8409/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/anuragroy/.gradle/caches/9.3.0/transforms/078487dcabd8dff62dc5ccc1321e6966/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/641bbabc59fcf27fee85f46ec2bb189a/transformed/jetified-activity-1.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/0130cbf37ba68228a01ecc6ab20b8637/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/5d04b0c41fc42c8ed1713e11aa91a643/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/3dc55d49db575d4b9ff414f659e56f1d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/ea4d9bdc257e47fcbf060458cbfd209c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/f275749f037b87bde9ce39c99a114871/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/6132b2800461b3e8c7dba58092f8bc53/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/fc0d49c883c5f842a6da0a3d367e968a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/31323afea8c5060a19304b22341694cb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ff907f872ede8b9f1ce9b810e119aea/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/4e9aee6cd654a0477ba34b0480180c9f/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/71e2534f65dcb33a4f46720f9233cf5e/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/9863f533a974a58aea52335066c4e0a4/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/343f4c4ab6978500a3471c06a6b47cbf/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/c8b5395c9674f190eba71e062ec50769/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/eca3fbc02f94e735f1c2d7fcf74a9bab/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/76309bb0c937a76d12df1c3ff4cec575/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/c1ad5e3587a883e2d8c311dd2b8c9e05/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ffee465371a9fae2cbc5a0f91ca26c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/f8e8f78f1ee7575dfbb4e1e3f41270dc/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/5271ad1789c6cb4caae5a12df0bb6bfd/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:6:5-95
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:6:22-92
+application
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:8:5-31:19
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:8:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ffee465371a9fae2cbc5a0f91ca26c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ffee465371a9fae2cbc5a0f91ca26c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:10:9-59
+	android:allowBackup
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:13:9-65
+receiver#com.example.daysleftwidget.DaysLeftWidgetProvider
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:15:9-29:20
+	android:exported
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:16:13-51
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.DATE_CHANGED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET+action:name:com.example.daysleftwidget.ACTION_UPDATE
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:18:13-25:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:19:17-84
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:19:25-81
+action#com.example.daysleftwidget.ACTION_UPDATE
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:20:17-83
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:20:25-80
+action#android.intent.action.DATE_CHANGED
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:21:25-74
+action#android.intent.action.TIME_SET
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:22:17-73
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:22:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:23:17-81
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:23:25-78
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:24:17-79
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:24:25-76
+meta-data#android.appwidget.provider
+ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:26:13-28:65
+	android:resource
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:28:17-62
+	android:name
+		ADDED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml:27:17-58
+uses-sdk
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/61f1564ea64e4793743794a631eff82d/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/61f1564ea64e4793743794a631eff82d/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/005c8c6762ed4a3f1d65b03ecf5f8409/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/005c8c6762ed4a3f1d65b03ecf5f8409/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/anuragroy/.gradle/caches/9.3.0/transforms/078487dcabd8dff62dc5ccc1321e6966/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/anuragroy/.gradle/caches/9.3.0/transforms/078487dcabd8dff62dc5ccc1321e6966/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/641bbabc59fcf27fee85f46ec2bb189a/transformed/jetified-activity-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/641bbabc59fcf27fee85f46ec2bb189a/transformed/jetified-activity-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/0130cbf37ba68228a01ecc6ab20b8637/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/0130cbf37ba68228a01ecc6ab20b8637/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/5d04b0c41fc42c8ed1713e11aa91a643/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/5d04b0c41fc42c8ed1713e11aa91a643/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/3dc55d49db575d4b9ff414f659e56f1d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/3dc55d49db575d4b9ff414f659e56f1d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/ea4d9bdc257e47fcbf060458cbfd209c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/ea4d9bdc257e47fcbf060458cbfd209c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/f275749f037b87bde9ce39c99a114871/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/f275749f037b87bde9ce39c99a114871/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/6132b2800461b3e8c7dba58092f8bc53/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/6132b2800461b3e8c7dba58092f8bc53/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/fc0d49c883c5f842a6da0a3d367e968a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/fc0d49c883c5f842a6da0a3d367e968a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/31323afea8c5060a19304b22341694cb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/31323afea8c5060a19304b22341694cb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ff907f872ede8b9f1ce9b810e119aea/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ff907f872ede8b9f1ce9b810e119aea/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/4e9aee6cd654a0477ba34b0480180c9f/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/4e9aee6cd654a0477ba34b0480180c9f/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/71e2534f65dcb33a4f46720f9233cf5e/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/71e2534f65dcb33a4f46720f9233cf5e/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/9863f533a974a58aea52335066c4e0a4/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/9863f533a974a58aea52335066c4e0a4/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/343f4c4ab6978500a3471c06a6b47cbf/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/343f4c4ab6978500a3471c06a6b47cbf/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/c8b5395c9674f190eba71e062ec50769/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/c8b5395c9674f190eba71e062ec50769/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/eca3fbc02f94e735f1c2d7fcf74a9bab/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/eca3fbc02f94e735f1c2d7fcf74a9bab/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/76309bb0c937a76d12df1c3ff4cec575/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/76309bb0c937a76d12df1c3ff4cec575/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/c1ad5e3587a883e2d8c311dd2b8c9e05/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/c1ad5e3587a883e2d8c311dd2b8c9e05/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ffee465371a9fae2cbc5a0f91ca26c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ffee465371a9fae2cbc5a0f91ca26c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/f8e8f78f1ee7575dfbb4e1e3f41270dc/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/f8e8f78f1ee7575dfbb4e1e3f41270dc/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/5271ad1789c6cb4caae5a12df0bb6bfd/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/5271ad1789c6cb4caae5a12df0bb6bfd/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.daysleftwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.daysleftwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

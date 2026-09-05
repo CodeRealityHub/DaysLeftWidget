@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+drawable card_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable outline_calendar_month_24
+drawable widget_background
+id tv_days_label
+id tv_days_left
+id tv_stats_row1
+id tv_stats_row2
+id tv_year
+layout widget_days_left
+mipmap ic_launcher
+mipmap ic_launcher_round
+string _155
+string _2026
+string _2026_is_not_a_leap_year_365_days
+string app_name
+string days_left
+string widget_description
+xml days_left_widget_info

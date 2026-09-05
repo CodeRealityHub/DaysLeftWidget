@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background">
+
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="top|center_horizontal" android:layout_marginTop="4dp" android:layout_marginEnd="40dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.18" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="top|center_horizontal" android:layout_marginTop="4dp" android:layout_marginStart="40dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.18" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="4dp" android:layout_marginEnd="40dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.18" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="4dp" android:layout_marginStart="40dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.18" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="center_vertical|start" android:layout_marginStart="2dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.12" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="center_vertical|end" android:layout_marginEnd="2dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.12" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="top|start" android:layout_marginTop="-6dp" android:layout_marginStart="-6dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.2" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="top|end" android:layout_marginTop="-6dp" android:layout_marginEnd="-6dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.2" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="bottom|start" android:layout_marginBottom="-6dp" android:layout_marginStart="-6dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.2" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="48dp" android:layout_height="48dp"
+        android:layout_gravity="bottom|end" android:layout_marginBottom="-6dp" android:layout_marginEnd="-6dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.2" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="top|center_horizontal" android:layout_marginTop="60dp" android:layout_marginEnd="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="top|center_horizontal" android:layout_marginTop="60dp" android:layout_marginStart="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="top|center_horizontal" android:layout_marginTop="84dp" android:layout_marginEnd="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="top|center_horizontal" android:layout_marginTop="84dp" android:layout_marginStart="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="60dp" android:layout_marginEnd="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="60dp" android:layout_marginStart="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="84dp" android:layout_marginEnd="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="84dp" android:layout_marginStart="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|start" android:layout_marginStart="60dp" android:layout_marginBottom="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|start" android:layout_marginStart="60dp" android:layout_marginTop="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|start" android:layout_marginStart="84dp" android:layout_marginBottom="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|start" android:layout_marginStart="84dp" android:layout_marginTop="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|end" android:layout_marginEnd="60dp" android:layout_marginBottom="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|end" android:layout_marginEnd="60dp" android:layout_marginTop="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|end" android:layout_marginEnd="84dp" android:layout_marginBottom="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+        android:layout_gravity="center_vertical|end" android:layout_marginEnd="84dp" android:layout_marginTop="12dp"
+        android:src="@drawable/outline_calendar_month_24" android:alpha="0.14" app:tint="#0BA4A4"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.1"
+            android:text="@string/_2026"
+            android:textColor="#5F5E5A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_days_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/_155"
+            android:textColor="#085041"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/tv_days_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/days_left"
+            android:textColor="#0F6E56"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/outline_calendar_month_24"
+                    android:alpha="0.6"
+                    app:tint="#0BA4A4"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tv_stats_row1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#5F5E5A"
+                    android:textSize="10sp"
+                    android:text="156 days incl. today  •  22w 1d left"
+                    tools:ignore="SmallSp,HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/outline_calendar_month_24"
+                    android:alpha="0.6"
+                    app:tint="#0BA4A4"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tv_stats_row2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#5F5E5A"
+                    android:textSize="10sp"
+                    android:text="Day 210 of 365  •  Not a leap year"
+                    tools:ignore="SmallSp,HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

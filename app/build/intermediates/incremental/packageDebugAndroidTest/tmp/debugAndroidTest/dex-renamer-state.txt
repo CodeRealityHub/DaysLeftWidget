@@ -1,0 +1,4 @@
+#Sat Aug 01 23:16:52 IST 2026
+base.0=/Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

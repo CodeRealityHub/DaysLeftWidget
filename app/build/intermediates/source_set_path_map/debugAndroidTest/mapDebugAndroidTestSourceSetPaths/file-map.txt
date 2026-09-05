@@ -1,0 +1,4 @@
+com.example.daysleftwidget.test.app-androidTest-0 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/generated/res/resValues/androidTest/debug
+com.example.daysleftwidget.test.app-mergeDebugAndroidTestResources-1 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.daysleftwidget.test.app-mergeDebugAndroidTestResources-2 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.daysleftwidget.test.app-debugAndroidTest-3 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

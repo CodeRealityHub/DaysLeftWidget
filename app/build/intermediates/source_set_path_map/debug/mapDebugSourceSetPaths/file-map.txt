@@ -1,0 +1,26 @@
+com.example.daysleftwidget.app-appcompat-1.7.0-0 /Users/anuragroy/.gradle/caches/9.3.0/transforms/005c8c6762ed4a3f1d65b03ecf5f8409/transformed/appcompat-1.7.0/res
+com.example.daysleftwidget.app-fragment-1.5.4-1 /Users/anuragroy/.gradle/caches/9.3.0/transforms/078487dcabd8dff62dc5ccc1321e6966/transformed/fragment-1.5.4/res
+com.example.daysleftwidget.app-jetified-lifecycle-process-2.6.2-2 /Users/anuragroy/.gradle/caches/9.3.0/transforms/14471c0ff19d5539ec0b1e95440d31ff/transformed/jetified-lifecycle-process-2.6.2/res
+com.example.daysleftwidget.app-jetified-savedstate-1.2.1-3 /Users/anuragroy/.gradle/caches/9.3.0/transforms/31323afea8c5060a19304b22341694cb/transformed/jetified-savedstate-1.2.1/res
+com.example.daysleftwidget.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-4 /Users/anuragroy/.gradle/caches/9.3.0/transforms/343f4c4ab6978500a3471c06a6b47cbf/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.example.daysleftwidget.app-lifecycle-viewmodel-2.6.2-5 /Users/anuragroy/.gradle/caches/9.3.0/transforms/4e9aee6cd654a0477ba34b0480180c9f/transformed/lifecycle-viewmodel-2.6.2/res
+com.example.daysleftwidget.app-core-runtime-2.2.0-6 /Users/anuragroy/.gradle/caches/9.3.0/transforms/5271ad1789c6cb4caae5a12df0bb6bfd/transformed/core-runtime-2.2.0/res
+com.example.daysleftwidget.app-jetified-emoji2-1.3.0-7 /Users/anuragroy/.gradle/caches/9.3.0/transforms/56a1a26f2a6a47338f79924ad1a039e4/transformed/jetified-emoji2-1.3.0/res
+com.example.daysleftwidget.app-jetified-emoji2-views-helper-1.3.0-8 /Users/anuragroy/.gradle/caches/9.3.0/transforms/5d04b0c41fc42c8ed1713e11aa91a643/transformed/jetified-emoji2-views-helper-1.3.0/res
+com.example.daysleftwidget.app-jetified-appcompat-resources-1.7.0-9 /Users/anuragroy/.gradle/caches/9.3.0/transforms/61f1564ea64e4793743794a631eff82d/transformed/jetified-appcompat-resources-1.7.0/res
+com.example.daysleftwidget.app-jetified-activity-1.7.0-10 /Users/anuragroy/.gradle/caches/9.3.0/transforms/641bbabc59fcf27fee85f46ec2bb189a/transformed/jetified-activity-1.7.0/res
+com.example.daysleftwidget.app-jetified-profileinstaller-1.3.1-11 /Users/anuragroy/.gradle/caches/9.3.0/transforms/694414c19950762004229f6086a2f566/transformed/jetified-profileinstaller-1.3.1/res
+com.example.daysleftwidget.app-lifecycle-livedata-core-2.6.2-12 /Users/anuragroy/.gradle/caches/9.3.0/transforms/71e2534f65dcb33a4f46720f9233cf5e/transformed/lifecycle-livedata-core-2.6.2/res
+com.example.daysleftwidget.app-lifecycle-livedata-2.6.2-13 /Users/anuragroy/.gradle/caches/9.3.0/transforms/7ff907f872ede8b9f1ce9b810e119aea/transformed/lifecycle-livedata-2.6.2/res
+com.example.daysleftwidget.app-jetified-startup-runtime-1.1.1-14 /Users/anuragroy/.gradle/caches/9.3.0/transforms/906f4917c742b88ebf5e0b1826924f74/transformed/jetified-startup-runtime-1.1.1/res
+com.example.daysleftwidget.app-lifecycle-runtime-2.6.2-15 /Users/anuragroy/.gradle/caches/9.3.0/transforms/9863f533a974a58aea52335066c4e0a4/transformed/lifecycle-runtime-2.6.2/res
+com.example.daysleftwidget.app-core-1.13.1-16 /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/res
+com.example.daysleftwidget.app-jetified-core-ktx-1.13.1-17 /Users/anuragroy/.gradle/caches/9.3.0/transforms/c8b5395c9674f190eba71e062ec50769/transformed/jetified-core-ktx-1.13.1/res
+com.example.daysleftwidget.app-jetified-annotation-experimental-1.4.0-18 /Users/anuragroy/.gradle/caches/9.3.0/transforms/eca3fbc02f94e735f1c2d7fcf74a9bab/transformed/jetified-annotation-experimental-1.4.0/res
+com.example.daysleftwidget.app-pngs-19 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/generated/res/pngs/debug
+com.example.daysleftwidget.app-resValues-20 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/generated/res/resValues/debug
+com.example.daysleftwidget.app-packageDebugResources-21 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.daysleftwidget.app-packageDebugResources-22 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.daysleftwidget.app-debug-23 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.daysleftwidget.app-debug-24 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/debug/res
+com.example.daysleftwidget.app-main-25 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/res

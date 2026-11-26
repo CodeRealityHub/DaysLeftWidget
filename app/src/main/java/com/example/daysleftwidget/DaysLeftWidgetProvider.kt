@@ -1,65 +1,100 @@
+
 package com.example.daysleftwidget
 
-import android.annotation.SuppressLint
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
-import android.os.PowerManager
-import android.provider.Settings
+import android.os.Build
 import android.util.Log
 import android.widget.RemoteViews
 import java.time.LocalDate
+import java.time.ZoneId
 import java.time.temporal.ChronoUnit
 
 class DaysLeftWidgetProvider : AppWidgetProvider() {
 
     companion object {
-        const val ACTION_UPDATE = "com.example.daysleftwidget.ACTION_UPDATE"
 
+        const val ACTION_UPDATE =
+            "com.example.daysleftwidget.ACTION_UPDATE"
+
+        private const val TAG = "DaysLeftWidget"
+
+        // Correct leap-year calculation
         fun isLeapYear(year: Int): Boolean {
-            return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
+            return (year % 4 == 0 && year % 100 != 0) ||
+                    (year % 400 == 0)
         }
 
-        /** Days remaining after today, i.e. NOT counting today itself. */
+        // Days remaining after today
         fun daysLeftInYear(today: LocalDate): Long {
             val endOfYear = LocalDate.of(today.year, 12, 31)
             return ChronoUnit.DAYS.between(today, endOfYear)
         }
 
-        fun updateAppWidget(context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int) {
+        // Update individual widget
+        fun updateAppWidget(
+            context: Context,
+            appWidgetManager: AppWidgetManager,
+            appWidgetId: Int
+        ) {
+
             val today = LocalDate.now()
             val year = today.year
+
             val leap = isLeapYear(year)
             val totalDaysInYear = if (leap) 366 else 365
 
-            // Excluding today (e.g. "155 days left")
+            // Excluding today
             val daysLeftExcludingToday = daysLeftInYear(today)
-            // Including today (e.g. "156 if you count today")
-            val daysLeftIncludingToday = daysLeftExcludingToday + 1
 
-            // Weeks left, based on the excluding-today count
+            // Including today
+            val daysLeftIncludingToday =
+                daysLeftExcludingToday + 1
+
+            // Weeks remaining
             val weeksLeft = daysLeftExcludingToday / 7
             val extraDays = daysLeftExcludingToday % 7
 
-            // Current day-of-year, e.g. "day 210 of 365"
+            // Current day number
             val dayNumber = today.dayOfYear
 
-            val views = RemoteViews(context.packageName, R.layout.widget_days_left)
-
-            views.setTextViewText(R.id.tv_year, year.toString())
-
-            views.setTextViewText(R.id.tv_days_left, daysLeftExcludingToday.toString())
-            views.setTextViewText(
-                R.id.tv_days_label,
-                if (daysLeftExcludingToday == 1L) "day left" else "days left"
+            val views = RemoteViews(
+                context.packageName,
+                R.layout.widget_days_left
             )
 
-            val weeksText = if (extraDays == 0L) "$weeksLeft weeks left" else "${weeksLeft}w ${extraDays}d left"
-            val leapText = if (leap) "Leap year" else "Not a leap year"
+            views.setTextViewText(
+                R.id.tv_year,
+                year.toString()
+            )
+
+            views.setTextViewText(
+                R.id.tv_days_left,
+                daysLeftExcludingToday.toString()
+            )
+
+            views.setTextViewText(
+                R.id.tv_days_label,
+                if (daysLeftExcludingToday == 1L)
+                    "day left"
+                else
+                    "days left"
+            )
+
+            val weeksText =
+                if (extraDays == 0L) {
+                    "$weeksLeft weeks left"
+                } else {
+                    "${weeksLeft}w ${extraDays}d left"
+                }
+
+            val leapText =
+                if (leap) "Leap year" else "Not a leap year"
 
             views.setTextViewText(
                 R.id.tv_stats_row1,
@@ -71,91 +106,193 @@ class DaysLeftWidgetProvider : AppWidgetProvider() {
                 "Day $dayNumber of $totalDaysInYear  •  $leapText"
             )
 
-            appWidgetManager.updateAppWidget(appWidgetId, views)
+            appWidgetManager.updateAppWidget(
+                appWidgetId,
+                views
+            )
         }
 
-        /** Schedules the widget to refresh shortly after midnight so it stays accurate. */
-        @SuppressLint("ScheduleExactAlarm")
-        fun scheduleMidnightUpdate(context: Context) {
-            val intent = Intent(context, DaysLeftWidgetProvider::class.java).apply {
+        // Create the pending intent used for automatic updates
+        private fun getUpdatePendingIntent(
+            context: Context
+        ): PendingIntent {
+
+            val intent = Intent(
+                context,
+                DaysLeftWidgetProvider::class.java
+            ).apply {
                 action = ACTION_UPDATE
             }
-            val pendingIntent = PendingIntent.getBroadcast(
-                context, 0, intent,
-                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-            )
 
-            val tomorrow = LocalDate.now().plusDays(1)
-            val triggerAtMillis = tomorrow.atStartOfDay(java.time.ZoneId.systemDefault())
-                .toInstant().toEpochMilli() + 1000 // 1 sec after midnight
-
-            val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
-            alarmManager.setExactAndAllowWhileIdle(
-                AlarmManager.RTC_WAKEUP,
-                triggerAtMillis,
-                pendingIntent
+            return PendingIntent.getBroadcast(
+                context,
+                0,
+                intent,
+                PendingIntent.FLAG_UPDATE_CURRENT or
+                        PendingIntent.FLAG_IMMUTABLE
             )
         }
 
-        /**
-         * Prompts the user to exempt this app from battery optimization, if it
-         * isn't already exempt. Needed on real devices (Samsung/Xiaomi/OnePlus, etc.)
-         * where OEM battery managers can delay or drop the midnight alarm — this
-         * doesn't happen on emulators, which is why the widget can lag by a day
-         * only on physical hardware.
-         */
-        fun requestIgnoreBatteryOptimizations(context: Context) {
-            val powerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
-            val alreadyExempt = powerManager.isIgnoringBatteryOptimizations(context.packageName)
-            if (alreadyExempt) return
+        // Schedule automatic midnight refresh
+        fun scheduleMidnightUpdate(context: Context) {
 
-            val intent = Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS).apply {
-                data = Uri.parse("package:${context.packageName}")
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK
-            }
+            val alarmManager =
+                context.getSystemService(
+                    Context.ALARM_SERVICE
+                ) as AlarmManager
+
+            val pendingIntent =
+                getUpdatePendingIntent(context)
+
+            val tomorrow = LocalDate.now().plusDays(1)
+
+            val triggerAtMillis =
+                tomorrow
+                    .atStartOfDay(ZoneId.systemDefault())
+                    .toInstant()
+                    .toEpochMilli() + 1000
+
             try {
-                context.startActivity(intent)
-            } catch (e: Exception) {
-                // Some OEMs (notably MIUI) block this intent outright; fail silently
-                // rather than crash — the widget still works, just less reliably.
+
+                // Use exact alarm when permission is available
+                if (
+                    Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
+                    alarmManager.canScheduleExactAlarms()
+                ) {
+
+                    alarmManager.setExactAndAllowWhileIdle(
+                        AlarmManager.RTC_WAKEUP,
+                        triggerAtMillis,
+                        pendingIntent
+                    )
+
+                } else {
+
+                    // Fallback: no special exact-alarm permission required
+                    alarmManager.setAndAllowWhileIdle(
+                        AlarmManager.RTC_WAKEUP,
+                        triggerAtMillis,
+                        pendingIntent
+                    )
+                }
+
+            } catch (e: SecurityException) {
+
+                Log.w(
+                    TAG,
+                    "Exact alarm unavailable. Using fallback.",
+                    e
+                )
+
+                alarmManager.setAndAllowWhileIdle(
+                    AlarmManager.RTC_WAKEUP,
+                    triggerAtMillis,
+                    pendingIntent
+                )
             }
+        }
+
+        // Update all installed widgets
+        fun updateAllWidgets(context: Context) {
+
+            val manager =
+                AppWidgetManager.getInstance(context)
+
+            val componentName = ComponentName(
+                context,
+                DaysLeftWidgetProvider::class.java
+            )
+
+            val widgetIds =
+                manager.getAppWidgetIds(componentName)
+
+            for (widgetId in widgetIds) {
+
+                updateAppWidget(
+                    context,
+                    manager,
+                    widgetId
+                )
+            }
+        }
+
+        // Cancel scheduled alarm when no widgets remain
+        fun cancelMidnightUpdate(context: Context) {
+
+            val alarmManager =
+                context.getSystemService(
+                    Context.ALARM_SERVICE
+                ) as AlarmManager
+
+            alarmManager.cancel(
+                getUpdatePendingIntent(context)
+            )
         }
     }
 
+    // Called when Android updates the widget
     override fun onUpdate(
         context: Context,
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
+
         for (appWidgetId in appWidgetIds) {
-            updateAppWidget(context, appWidgetManager, appWidgetId)
+
+            updateAppWidget(
+                context,
+                appWidgetManager,
+                appWidgetId
+            )
         }
+
         scheduleMidnightUpdate(context)
     }
 
-    override fun onReceive(context: Context, intent: Intent) {
+    // Handle automatic and system broadcasts
+    override fun onReceive(
+        context: Context,
+        intent: Intent
+    ) {
+
         super.onReceive(context, intent)
-        Log.d("DaysLeftWidget", "onReceive fired with action: ${intent.action}")
 
-        val relevantAction = intent.action == ACTION_UPDATE ||
-                intent.action == Intent.ACTION_DATE_CHANGED ||
-                intent.action == Intent.ACTION_TIME_CHANGED ||
-                intent.action == Intent.ACTION_TIMEZONE_CHANGED ||
-                intent.action == Intent.ACTION_BOOT_COMPLETED
+        Log.d(
+            TAG,
+            "Received action: ${intent.action}"
+        )
 
-        if (relevantAction) {
-            val appWidgetManager = AppWidgetManager.getInstance(context)
-            val thisWidget = android.content.ComponentName(context, DaysLeftWidgetProvider::class.java)
-            val appWidgetIds = appWidgetManager.getAppWidgetIds(thisWidget)
-            for (appWidgetId in appWidgetIds) {
-                updateAppWidget(context, appWidgetManager, appWidgetId)
+        when (intent.action) {
+
+            ACTION_UPDATE,
+            Intent.ACTION_DATE_CHANGED,
+            Intent.ACTION_TIME_CHANGED,
+            Intent.ACTION_TIMEZONE_CHANGED,
+            Intent.ACTION_BOOT_COMPLETED -> {
+
+                updateAllWidgets(context)
+
+                // Recalculate next midnight using current date/timezone
+                scheduleMidnightUpdate(context)
             }
-            scheduleMidnightUpdate(context)
         }
     }
 
+    // Called when the first widget is added
     override fun onEnabled(context: Context) {
+
+        super.onEnabled(context)
+
+        updateAllWidgets(context)
+
         scheduleMidnightUpdate(context)
-        requestIgnoreBatteryOptimizations(context)
+    }
+
+    // Called when the last widget is removed
+    override fun onDisabled(context: Context) {
+
+        super.onDisabled(context)
+
+        cancelMidnightUpdate(context)
     }
 }

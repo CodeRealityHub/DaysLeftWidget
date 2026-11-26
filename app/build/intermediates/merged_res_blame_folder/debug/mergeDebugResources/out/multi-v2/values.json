@@ -23,23 +23,6 @@
                     }
                 },
                 {
-                    "source": "/Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "5,4,7,2,6,3",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "249,210,334,55,286,109",
-                        "endColumns": "36,38,96,53,47,100",
-                        "endOffsets": "281,244,426,104,329,205"
-                    },
-                    "to": {
-                        "startLines": "271,272,273,302,310,313",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "17480,17517,17556,19602,20167,20339",
-                        "endColumns": "36,38,96,53,47,100",
-                        "endOffsets": "17512,17551,17648,19651,20210,20435"
-                    }
-                },
-                {
                     "source": "/Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,98,99,103,104,105,106,112,122,155,176,209",
@@ -90,6 +73,23 @@
                         "startOffsets": "15852,16939",
                         "endColumns": "41,59",
                         "endOffsets": "15889,16994"
+                    }
+                },
+                {
+                    "source": "/Users/anuragroy/DaysLeftWidget/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "5,4,7,2,6,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "249,210,334,55,286,109",
+                        "endColumns": "36,38,96,53,47,100",
+                        "endOffsets": "281,244,426,104,329,205"
+                    },
+                    "to": {
+                        "startLines": "271,272,273,302,310,313",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "17480,17517,17556,19602,20167,20339",
+                        "endColumns": "36,38,96,53,47,100",
+                        "endOffsets": "17512,17551,17648,19651,20210,20435"
                     }
                 },
                 {

@@ -17,10 +17,10 @@ com.example.daysleftwidget.app-lifecycle-runtime-2.6.2-15 /Users/anuragroy/.grad
 com.example.daysleftwidget.app-core-1.13.1-16 /Users/anuragroy/.gradle/caches/9.3.0/transforms/bf89162ae3a323bacc1f2afbf831c8e8/transformed/core-1.13.1/res
 com.example.daysleftwidget.app-jetified-core-ktx-1.13.1-17 /Users/anuragroy/.gradle/caches/9.3.0/transforms/c8b5395c9674f190eba71e062ec50769/transformed/jetified-core-ktx-1.13.1/res
 com.example.daysleftwidget.app-jetified-annotation-experimental-1.4.0-18 /Users/anuragroy/.gradle/caches/9.3.0/transforms/eca3fbc02f94e735f1c2d7fcf74a9bab/transformed/jetified-annotation-experimental-1.4.0/res
-com.example.daysleftwidget.app-pngs-19 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/generated/res/pngs/debug
-com.example.daysleftwidget.app-resValues-20 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/generated/res/resValues/debug
-com.example.daysleftwidget.app-packageDebugResources-21 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.daysleftwidget.app-packageDebugResources-22 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.daysleftwidget.app-debug-23 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.daysleftwidget.app-debug-24 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/debug/res
-com.example.daysleftwidget.app-main-25 /Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/src/main/res
+com.example.daysleftwidget.app-pngs-19 /Users/anuragroy/DaysLeftWidget/app/build/generated/res/pngs/debug
+com.example.daysleftwidget.app-resValues-20 /Users/anuragroy/DaysLeftWidget/app/build/generated/res/resValues/debug
+com.example.daysleftwidget.app-packageDebugResources-21 /Users/anuragroy/DaysLeftWidget/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.daysleftwidget.app-packageDebugResources-22 /Users/anuragroy/DaysLeftWidget/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.daysleftwidget.app-debug-23 /Users/anuragroy/DaysLeftWidget/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.daysleftwidget.app-debug-24 /Users/anuragroy/DaysLeftWidget/app/src/debug/res
+com.example.daysleftwidget.app-main-25 /Users/anuragroy/DaysLeftWidget/app/src/main/res

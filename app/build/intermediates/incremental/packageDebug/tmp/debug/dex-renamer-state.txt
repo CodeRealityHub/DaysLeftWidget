@@ -1,7 +1,7 @@
-#Tue Aug 04 22:05:00 IST 2026
-base.0=/Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/anuragroy/Desktop/My Widgets/DaysLeftWidget/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+#Wed Nov 18 18:24:31 IST 2026
+base.0=/Users/anuragroy/DaysLeftWidget/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/anuragroy/DaysLeftWidget/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/anuragroy/DaysLeftWidget/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex
